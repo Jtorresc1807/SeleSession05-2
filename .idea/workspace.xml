@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9a62c25e-7c32-47a6-bbd2-171b467255bb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../Class 2/SeleSession02/.idea/SeleSession02.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Class 5/SeleSession05-1/.idea/SeleSession05-1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SeleSession05-1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Class 7/Archive/SeleSession06-2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Class 9 WorkShop 1/workshop01/.idea/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2fsCIJN0fgRcyi5CLv59KW5IIEV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.D:/Curso QA SOFTWARE AUTOMATION TESTER/SELENIUM WEBDRIVER and GRID/Class 6/Archive/SeleSession05-2/testng2.xml.executor": "Run",
+    "TestNG.ReportTest.getLogo.executor": "Run",
+    "TestNG.ReportTest.getTitle.executor": "Run",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "21 (2)",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Curso QA SOFTWARE AUTOMATION TESTER/SELENIUM WEBDRIVER and GRID/Class 6/Archive/SeleSession05-2",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RunManager" selected="TestNG.ReportTest.getTitle">
+    <configuration name="D:/Curso QA SOFTWARE AUTOMATION TESTER/SELENIUM WEBDRIVER and GRID/Class 6/Archive/SeleSession05-2/testng2.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleSession05-1" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng2.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReportTest.getLogo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleSession05-1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.reports.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.reports.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.reports.tests.ReportTest" />
+      <option name="METHOD_NAME" value="getLogo" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReportTest.getTitle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleSession05-1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.reports.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.reports.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.reports.tests.ReportTest" />
+      <option name="METHOD_NAME" value="getTitle" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.ReportTest.getTitle" />
+        <item itemvalue="TestNG.ReportTest.getLogo" />
+        <item itemvalue="TestNG.D:/Curso QA SOFTWARE AUTOMATION TESTER/SELENIUM WEBDRIVER and GRID/Class 6/Archive/SeleSession05-2/testng2.xml" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-4caba194b151-107bc6b7" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9a62c25e-7c32-47a6-bbd2-171b467255bb" name="Changes" comment="" />
+      <created>1714580318474</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714580318474</updated>
+    </task>
+    <servers />
+  </component>
+</project>

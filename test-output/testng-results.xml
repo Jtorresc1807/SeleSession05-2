@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="2" failed="2" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-26T21:10:00 PET" name="Suite" finished-at="2024-03-26T21:10:40 PET" duration-ms="39683">
+    <groups>
+    </groups>
+    <test started-at="2024-03-26T21:10:00 PET" name="Test Report 1" finished-at="2024-03-26T21:10:21 PET" duration-ms="20408">
+      <class name="com.reports.tests.ReportTest">
+        <test-method is-config="true" signature="starReport()[pri:0, instance:com.reports.tests.ReportTest@2f40e5db]" started-at="2024-03-26T21:10:00 PET" name="starReport" finished-at="2024-03-26T21:10:01 PET" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starReport -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.reports.tests.ReportTest@2f40e5db]" started-at="2024-03-26T21:10:01 PET" name="setUp" finished-at="2024-03-26T21:10:08 PET" duration-ms="6990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getTitle(java.lang.reflect.Method)[pri:1, instance:com.reports.tests.ReportTest@2f40e5db]" started-at="2024-03-26T21:10:08 PET" name="getTitle" finished-at="2024-03-26T21:10:08 PET" duration-ms="18" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.reports.tests.ReportTest.getTitle(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.reports.tests.ReportTest@2f40e5db]" started-at="2024-03-26T21:10:08 PET" name="tearDown" finished-at="2024-03-26T21:10:08 PET" duration-ms="542" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getTitle status=SUCCESS method=ReportTest.getTitle(java.lang.reflect.Method)[pri:1, instance:com.reports.tests.ReportTest@2f40e5db] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.reports.tests.ReportTest@2f40e5db]" started-at="2024-03-26T21:10:08 PET" name="setUp" finished-at="2024-03-26T21:10:14 PET" duration-ms="5651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="skyTest()[pri:2, instance:com.reports.tests.ReportTest@2f40e5db]" started-at="2024-03-26T21:10:14 PET" name="skyTest" finished-at="2024-03-26T21:10:14 PET" duration-ms="3" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[pending to implement]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: pending to implement
+at com.reports.tests.ReportTest.skyTest(ReportTest.java:52)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- skyTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.reports.tests.ReportTest@2f40e5db]" started-at="2024-03-26T21:10:14 PET" name="tearDown" finished-at="2024-03-26T21:10:14 PET" duration-ms="544" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=skyTest status=SKIP method=ReportTest.skyTest()[pri:2, instance:com.reports.tests.ReportTest@2f40e5db] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.reports.tests.ReportTest@2f40e5db]" started-at="2024-03-26T21:10:14 PET" name="setUp" finished-at="2024-03-26T21:10:20 PET" duration-ms="5685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getLogo(java.lang.reflect.Method)[pri:3, instance:com.reports.tests.ReportTest@2f40e5db]" started-at="2024-03-26T21:10:20 PET" name="getLogo" finished-at="2024-03-26T21:10:20 PET" duration-ms="43" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.reports.tests.ReportTest.getLogo(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+at org.testng.AssertJUnit.fail(AssertJUnit.java:65)
+at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:23)
+at org.testng.AssertJUnit.assertFalse(AssertJUnit.java:44)
+at org.testng.AssertJUnit.assertFalse(AssertJUnit.java:53)
+at com.reports.tests.ReportTest.getLogo(ReportTest.java:43)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLogo -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.reports.tests.ReportTest@2f40e5db]" started-at="2024-03-26T21:10:20 PET" name="tearDown" finished-at="2024-03-26T21:10:21 PET" duration-ms="704" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getLogo status=FAILURE method=ReportTest.getLogo(java.lang.reflect.Method)[pri:3, instance:com.reports.tests.ReportTest@2f40e5db] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="makeReport()[pri:0, instance:com.reports.tests.ReportTest@2f40e5db]" started-at="2024-03-26T21:10:21 PET" name="makeReport" finished-at="2024-03-26T21:10:21 PET" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeReport -->
+      </class> <!-- com.reports.tests.ReportTest -->
+    </test> <!-- Test Report 1 -->
+    <test started-at="2024-03-26T21:10:21 PET" name="Test Report 2" finished-at="2024-03-26T21:10:40 PET" duration-ms="19261">
+      <class name="com.reports.tests.ReportTest2">
+        <test-method is-config="true" signature="starReport()[pri:0, instance:com.reports.tests.ReportTest2@3d2ee678]" started-at="2024-03-26T21:10:21 PET" name="starReport" finished-at="2024-03-26T21:10:21 PET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starReport -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.reports.tests.ReportTest2@3d2ee678]" started-at="2024-03-26T21:10:21 PET" name="setUp" finished-at="2024-03-26T21:10:26 PET" duration-ms="5230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getTitle2(java.lang.reflect.Method)[pri:1, instance:com.reports.tests.ReportTest2@3d2ee678]" started-at="2024-03-26T21:10:26 PET" name="getTitle2" finished-at="2024-03-26T21:10:26 PET" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.reports.tests.ReportTest2.getTitle2(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitle2 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.reports.tests.ReportTest2@3d2ee678]" started-at="2024-03-26T21:10:26 PET" name="tearDown" finished-at="2024-03-26T21:10:27 PET" duration-ms="543" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getTitle2 status=SUCCESS method=ReportTest2.getTitle2(java.lang.reflect.Method)[pri:1, instance:com.reports.tests.ReportTest2@3d2ee678] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.reports.tests.ReportTest2@3d2ee678]" started-at="2024-03-26T21:10:27 PET" name="setUp" finished-at="2024-03-26T21:10:33 PET" duration-ms="6103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="skyTest2()[pri:2, instance:com.reports.tests.ReportTest2@3d2ee678]" started-at="2024-03-26T21:10:33 PET" name="skyTest2" finished-at="2024-03-26T21:10:33 PET" duration-ms="5" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[pending to implement]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: pending to implement
+at com.reports.tests.ReportTest2.skyTest2(ReportTest2.java:52)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- skyTest2 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.reports.tests.ReportTest2@3d2ee678]" started-at="2024-03-26T21:10:33 PET" name="tearDown" finished-at="2024-03-26T21:10:33 PET" duration-ms="570" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=skyTest2 status=SKIP method=ReportTest2.skyTest2()[pri:2, instance:com.reports.tests.ReportTest2@3d2ee678] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.reports.tests.ReportTest2@3d2ee678]" started-at="2024-03-26T21:10:33 PET" name="setUp" finished-at="2024-03-26T21:10:39 PET" duration-ms="5911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getLogo2(java.lang.reflect.Method)[pri:3, instance:com.reports.tests.ReportTest2@3d2ee678]" started-at="2024-03-26T21:10:39 PET" name="getLogo2" finished-at="2024-03-26T21:10:39 PET" duration-ms="35" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.reports.tests.ReportTest2.getLogo2(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+at org.testng.AssertJUnit.fail(AssertJUnit.java:65)
+at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:23)
+at org.testng.AssertJUnit.assertFalse(AssertJUnit.java:44)
+at org.testng.AssertJUnit.assertFalse(AssertJUnit.java:53)
+at com.reports.tests.ReportTest2.getLogo2(ReportTest2.java:43)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLogo2 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.reports.tests.ReportTest2@3d2ee678]" started-at="2024-03-26T21:10:39 PET" name="tearDown" finished-at="2024-03-26T21:10:40 PET" duration-ms="804" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getLogo2 status=FAILURE method=ReportTest2.getLogo2(java.lang.reflect.Method)[pri:3, instance:com.reports.tests.ReportTest2@3d2ee678] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="makeReport()[pri:0, instance:com.reports.tests.ReportTest2@3d2ee678]" started-at="2024-03-26T21:10:40 PET" name="makeReport" finished-at="2024-03-26T21:10:40 PET" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeReport -->
+      </class> <!-- com.reports.tests.ReportTest2 -->
+    </test> <!-- Test Report 2 -->
+  </suite> <!-- Suite -->
+</testng-results>
