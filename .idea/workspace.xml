@@ -8,9 +8,16 @@
       <change afterPath="$PROJECT_DIR$/../../../Class 2/SeleSession02/.idea/SeleSession02.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../Class 5/SeleSession05-1/.idea/SeleSession05-1.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SeleSession05-1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../Class 7/Archive/SeleSession06-2/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../Class 9 WorkShop 1/workshop01/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log4j2/log4j2-test-automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/log4j2/log4j2-test-automation.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/reports/listeners/CustomListeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/reports/listeners/CustomListeners.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PracticaCommerce/log4j2/log4j2-test-automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PracticaCommerce/log4j2/log4j2-test-automation.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +25,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -33,7 +40,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.D:/Curso QA SOFTWARE AUTOMATION TESTER/SELENIUM WEBDRIVER and GRID/Class 6/Archive/SeleSession05-2/testng2.xml.executor": "Run",
+    "TestNG.RegisterTest.registerNewCustomerWithRequiredData.executor": "Run",
     "TestNG.ReportTest.getLogo.executor": "Run",
     "TestNG.ReportTest.getTitle.executor": "Run",
     "git-widget-placeholder": "master",
@@ -42,14 +51,33 @@
     "last_opened_file_path": "D:/Curso QA SOFTWARE AUTOMATION TESTER/SELENIUM WEBDRIVER and GRID/Class 6/Archive/SeleSession05-2",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.tabs"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.ReportTest.getTitle">
+  <component name="RunManager" selected="TestNG.RegisterTest.registerNewCustomerWithRequiredData">
     <configuration name="D:/Curso QA SOFTWARE AUTOMATION TESTER/SELENIUM WEBDRIVER and GRID/Class 6/Archive/SeleSession05-2/testng2.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleSession05-1" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng2.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisterTest.registerNewCustomerWithRequiredData" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PracticaCommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.commerce.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.commerce.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.commerce.tests.RegisterTest" />
+      <option name="METHOD_NAME" value="registerNewCustomerWithRequiredData" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -94,6 +122,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.RegisterTest.registerNewCustomerWithRequiredData" />
         <item itemvalue="TestNG.ReportTest.getTitle" />
         <item itemvalue="TestNG.ReportTest.getLogo" />
         <item itemvalue="TestNG.D:/Curso QA SOFTWARE AUTOMATION TESTER/SELENIUM WEBDRIVER and GRID/Class 6/Archive/SeleSession05-2/testng2.xml" />

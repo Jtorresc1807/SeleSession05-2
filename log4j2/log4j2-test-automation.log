@@ -6,3 +6,11 @@
 [INFO ] 2024-05-01 14:18:56.789 [main] Log - antes del assertion getTitle
 [INFO ] 2024-05-01 14:18:56.795 [main] Log - despues del assertion getTitle
 [INFO ] 2024-05-01 14:18:56.797 [main] Log - Im on getTitle Test .... success ...
+[INFO ] 2024-05-01 18:51:55.902 [main] Utils - [TestNG] Running:
+  C:\Users\JAIME TORRES\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+[INFO ] 2024-05-01 18:52:07.591 [main] Log - Im on getTitle Test .... starting ...
+[INFO ] 2024-05-01 18:52:07.592 [main] Log - iniciando test getTitle
+[INFO ] 2024-05-01 18:52:07.611 [main] Log - antes del assertion getTitle
+[INFO ] 2024-05-01 18:52:07.638 [main] Log - despues del assertion getTitle
+[INFO ] 2024-05-01 18:52:07.640 [main] Log - Im on getTitle Test .... success ...

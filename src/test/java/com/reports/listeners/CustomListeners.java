@@ -6,7 +6,7 @@ import org.testng.ITestResult;
 
 import com.reports.utils.Log;
 
-public class CustomListeners implements ITestListener {
+public class   CustomListeners implements ITestListener {
 
 	@Override
 	public void onTestStart(ITestResult result) {
